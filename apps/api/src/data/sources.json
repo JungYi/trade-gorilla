@@ -1,0 +1,92 @@
+[
+  {
+    "id": "src_bafin_dep",
+    "publisher": "BaFin",
+    "url": "https://www.bafin.de/EN/Consumers/Banks/DepositProtection/deposit_protection_node_en.html",
+    "lastVerified": "2023-10-15",
+    "excerpt": "Statutory deposit guarantee scheme protects deposits up to 100,000 euros per depositor and bank.",
+    "jurisdiction": "DE",
+    "needsVerification": false
+  },
+  {
+    "id": "src_tr_pl",
+    "publisher": "Trade Republic",
+    "url": "https://traderepublic.com/en-de/pricing",
+    "lastVerified": "2023-11-01",
+    "excerpt": "Order commission 1 EUR per trade. Savings plans are free of order commission.",
+    "jurisdiction": "DE",
+    "needsVerification": false
+  },
+  {
+    "id": "src_ing_terms",
+    "publisher": "ING Germany",
+    "url": "https://www.ing.de/preis-leistungs-verzeichnis/",
+    "lastVerified": "2023-10-20",
+    "excerpt": "Custody account management is free of charge. ETF savings plans start from 1 Euro.",
+    "jurisdiction": "DE",
+    "needsVerification": false
+  },
+  {
+    "id": "src_dkb_fx",
+    "publisher": "DKB",
+    "url": "https://bank.dkb.de/privatkunden/karten/visa-debitkarte",
+    "lastVerified": "2023-09-01",
+    "excerpt": "Worldwide payment and cash withdrawal free of charge with the Visa Debit Card for Active Customers.",
+    "jurisdiction": "DE",
+    "needsVerification": false
+  },
+  {
+    "id": "src_tax_estg",
+    "publisher": "Gesetze-im-Internet",
+    "url": "https://www.gesetze-im-internet.de/estg/__20.html",
+    "lastVerified": "2023-01-01",
+    "excerpt": "Capital income is subject to a flat tax rate of 25 percent plus solidarity surcharge.",
+    "jurisdiction": "DE",
+    "needsVerification": false
+  },
+  {
+    "id": "src_scalable_int",
+    "publisher": "Scalable Capital",
+    "url": "https://de.scalable.capital/zinsen",
+    "lastVerified": "2023-11-10",
+    "excerpt": "4% p.a. interest on up to 1m Euro for PRIME+ members.",
+    "jurisdiction": "DE",
+    "needsVerification": false
+  },
+  {
+    "id": "src_comdirect_service",
+    "publisher": "Comdirect",
+    "url": "https://www.comdirect.de/konto/girokonto.html",
+    "lastVerified": "2023-10-05",
+    "excerpt": "Free current account if 700 Euro monthly receipt or 3 payments via Apple/Google Pay.",
+    "jurisdiction": "DE",
+    "needsVerification": false
+  },
+  {
+    "id": "src_n26_protection",
+    "publisher": "N26",
+    "url": "https://n26.com/en-de/security",
+    "lastVerified": "2023-11-01",
+    "excerpt": "Your money is protected by the German Deposit Protection Fund up to €100,000.",
+    "jurisdiction": "DE",
+    "needsVerification": false
+  },
+  {
+    "id": "src_revolut_lt",
+    "publisher": "Revolut",
+    "url": "https://www.revolut.com/en-DE/legal/deposit-insurance-information/",
+    "lastVerified": "2023-11-15",
+    "excerpt": "Deposits are insured by the Lithuanian State Company Deposit and Investment Insurance.",
+    "jurisdiction": "EU",
+    "needsVerification": false
+  },
+  {
+    "id": "src_consors_fee",
+    "publisher": "Consorsbank",
+    "url": "https://www.consorsbank.de/ev/Wertpapierhandel/Preise-Zinsen",
+    "lastVerified": "2023-10-01",
+    "excerpt": "Base fee for trading starts at 4.95 Euro + 0.25% of trade volume.",
+    "jurisdiction": "DE",
+    "needsVerification": false
+  }
+]

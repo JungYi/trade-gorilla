@@ -1,0 +1,110 @@
+[
+  {
+    "id": "tr_01",
+    "name": "Trade Republic",
+    "tagline": "The Savings Plan Champion",
+    "description": "Mobile-first neo-broker focusing on low fees and high automation.",
+    "attributes": {
+      "annualFee": 0,
+      "fxFeePercentage": 0,
+      "hasCard": true,
+      "hasSavingsPlan": true,
+      "interestRate": 0.04,
+      "isTaxConvenient": true,
+      "depositProtection": "DE (100k)",
+      "onboardingMethod": "VideoIdent"
+    },
+    "supportedCountries": ["DE", "AT", "FR", "ES", "IT", "NL"],
+    "factIds": ["fact_tr_cost"]
+  },
+  {
+    "id": "ing_01",
+    "name": "ING DiBa",
+    "tagline": "The Reliable All-Rounder",
+    "description": "Full-service direct bank with a very popular free ETF savings offering.",
+    "attributes": {
+      "annualFee": 0,
+      "fxFeePercentage": 1.99,
+      "hasCard": true,
+      "hasSavingsPlan": true,
+      "interestRate": 0.0125,
+      "isTaxConvenient": true,
+      "depositProtection": "DE (100k)",
+      "onboardingMethod": "PostIdent"
+    },
+    "supportedCountries": ["DE"],
+    "factIds": ["fact_ing_free"]
+  },
+  {
+    "id": "sc_01",
+    "name": "Scalable Capital",
+    "tagline": "Trading Flatrate",
+    "description": "Best for frequent traders and large portfolio holders via Prime broker model.",
+    "attributes": {
+      "annualFee": 35.88,
+      "fxFeePercentage": 0.0,
+      "hasCard": false,
+      "hasSavingsPlan": true,
+      "interestRate": 0.04,
+      "isTaxConvenient": true,
+      "depositProtection": "DE (100k)",
+      "onboardingMethod": "eID"
+    },
+    "supportedCountries": ["DE", "AT"],
+    "factIds": ["fact_scalable_int"]
+  },
+  {
+    "id": "dkb_01",
+    "name": "DKB",
+    "tagline": "The Traveler's Choice",
+    "description": "Direct bank known for excellent travel conditions and debit card.",
+    "attributes": {
+      "annualFee": 0,
+      "fxFeePercentage": 0,
+      "hasCard": true,
+      "hasSavingsPlan": true,
+      "interestRate": 0.01,
+      "isTaxConvenient": true,
+      "depositProtection": "DE (100k)",
+      "onboardingMethod": "VideoIdent"
+    },
+    "supportedCountries": ["DE"],
+    "factIds": ["fact_dkb_travel"]
+  },
+  {
+    "id": "rev_01",
+    "name": "Revolut",
+    "tagline": "Global Money App",
+    "description": "Banking alternative for international lifestyles.",
+    "attributes": {
+      "annualFee": 0,
+      "fxFeePercentage": 0,
+      "hasCard": true,
+      "hasSavingsPlan": false,
+      "interestRate": 0.0,
+      "isTaxConvenient": false,
+      "depositProtection": "LT (100k)",
+      "onboardingMethod": "VideoIdent"
+    },
+    "supportedCountries": ["DE", "FR", "GB", "US"],
+    "factIds": ["fact_revolut_lt"]
+  },
+  {
+    "id": "con_01",
+    "name": "Consorsbank",
+    "tagline": "Established Direct Bank",
+    "description": "Wide range of trading venues and solid banking features.",
+    "attributes": {
+      "annualFee": 0,
+      "fxFeePercentage": 1.75,
+      "hasCard": true,
+      "hasSavingsPlan": true,
+      "interestRate": 0.01,
+      "isTaxConvenient": true,
+      "depositProtection": "DE (100k)",
+      "onboardingMethod": "VideoIdent"
+    },
+    "supportedCountries": ["DE"],
+    "factIds": ["fact_consors_trad"]
+  }
+]

@@ -1,0 +1,9 @@
+[
+  { "id": "fact_tr_cost", "claim": "1€ per trade settlement, free savings plans.", "sourceId": "src_tr_pl" },
+  { "id": "fact_ing_free", "claim": "Free custody account and savings plans starting at 1€.", "sourceId": "src_ing_terms" },
+  { "id": "fact_dkb_travel", "claim": "No FX fees worldwide for 'Active' customers.", "sourceId": "src_dkb_fx" },
+  { "id": "fact_scalable_int", "claim": "Offers competitive interest rates on cash balance for premium tier.", "sourceId": "src_scalable_int" },
+  { "id": "fact_n26_dep", "claim": "German deposit protection up to 100k EUR.", "sourceId": "src_n26_protection" },
+  { "id": "fact_revolut_lt", "claim": "Lithuanian deposit protection (EU standard).", "sourceId": "src_revolut_lt" },
+  { "id": "fact_consors_trad", "claim": "Traditional pricing model: fixed base + percentage.", "sourceId": "src_consors_fee" }
+]

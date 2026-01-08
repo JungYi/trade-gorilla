@@ -1,0 +1,11 @@
+
+1. chore(root): initialize monorepo structure and shared types (commit only)
+2. feat(api/setup): setup express with security middleware and routes (commit only)
+3. feat(api/data): implement json seed data for providers and sources (commit only)
+4. feat(api/logic): implement recommendation engine with scoring rules (commit + push)
+5. feat(web/setup): initialize vue 3 with tailwind and pinia (commit only)
+6. feat(web/components): create DotGrid365 and EvidenceBadge components (commit only)
+7. feat(web/views): build comparison table and wizard forms (commit only)
+8. feat(web/store): connect frontend to api via pinia actions (commit + push)
+9. docs(readme): add architecture diagram and security checklist (commit only)
+10. chore(release): finalize mvp and polish ui details (commit + push)
