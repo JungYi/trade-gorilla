@@ -8,14 +8,41 @@ const app = express();
 
 // Security: Helmet sets various HTTP headers to secure the app
 app.use(helmet());
+app.use(express.json());
 
 // Security: CORS Allowlist
-const allowedOrigins = [process.env.CORS_ORIGIN || 'http://localhost:5173'];
-app.use(cors({
-  origin: allowedOrigins,
-  methods: ['GET', 'POST'],
-  allowedHeaders: ['Content-Type', 'Authorization'],
-}));
+const explicitOrigins = (process.env.CORS_ORIGIN ?? '')
+  .split(',')
+  .map((s) => s.trim())
+  .filter(Boolean);
+
+// Always allow local dev
+const allowlist = new Set<string>(['http://localhost:5173', ...explicitOrigins]);
+
+app.use(
+  cors({
+    origin: (origin, callback) => {
+      // Allow non-browser requests (curl, server-to-server)
+      if (!origin) {
+        return callback(null, true);
+      }
+
+      // Exact allowlist match
+      if (allowlist.has(origin)) {
+        return callback(null, true);
+      }
+
+      // Allow Vercel preview URLs
+      if (/^https:\/\/trade-gorilla-.*\.vercel\.app$/.test(origin)) {
+        return callback(null, true);
+      }
+
+      return callback(new Error(`CORS blocked for origin: ${origin}`));
+    },
+    methods: ['GET', 'POST', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+  })
+);
 
 // Rate limiting for public endpoints to prevent abuse
 const limiter = rateLimit({
@@ -25,8 +52,6 @@ const limiter = rateLimit({
   legacyHeaders: false,
 });
 app.use(limiter);
-
-app.use(express.json());
 
 // Routes
 app.use('/api', apiRoutes);
